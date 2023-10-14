@@ -23,6 +23,7 @@ const ReposPage = async () => {
                     <div key={repo.id} className="card card-bordered border-primary mx-3 p-3">
                         <Link href={repo.html_url} target='_blank' className='text-primary no-underline ' >
                             <p>{repo.name}</p>
+                            <p>{repo.description}</p>
 
                             <div className="flex justify-between">
                                 <div>
@@ -32,7 +33,7 @@ const ReposPage = async () => {
                                     <FaEye />{repo.visibility}
                                 </div>
                                 <div>
-                                    <FaCodeBranch />{repo.forks_count}
+                                    <FaCodeBranch />{repo.watchers_count}
                                 </div>
                             </div>
 
