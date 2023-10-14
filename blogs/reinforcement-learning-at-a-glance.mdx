@@ -1,0 +1,62 @@
+---
+title: 'Reinforcement Learning At A Glance'
+date: 02 February 2023
+description: 'A Summary Reinforcement learning And Terminologies'
+author: 'Eneotu Joe'
+image: '../public/images/reinforcement_learning_summary_bdeu7j.png'
+alt: 'reinforcement leaning'
+tags: 
+  - Reinforcement Learning
+  - Machine Learning
+  - AI
+---
+
+Reinforcement learning (RL) is a field in machine learning that models learning from interaction. It is concerned with an agent learning by interacting with an environment and receiving rewards for every action it takes in that environment. Agent and environment are the two vital components of RL, but there are other terminologies which are all detailed below.
+
+### Environment
+  
+  The environment represents the world that an agent interacts with by taking action and learns thereafter. An environment responds to an agent with  a reward and new state when an agent takes an action.
+
+### Agent
+
+The learning algorithm that acts in the environment with the sole objective of maximizing the reward signals for its actions. When an agent applies an action on the environment, the environment outputs reward and another state to the agent.
+
+### State
+
+A state is a complete representation of the current environment. A state is fully-observed when it is completely seen by the agent and partially-observed when it is partially seen by the agent.
+
+### Action
+
+This is how an agent reacts to the environment. Action space is a space of all valid actions to be taken in a given environment. Action space could be either Discrete Action Space or Continuous Action Space.
+
+### Reward
+
+This is the feedback that an agent gets from the environment as a result of its action. It is used to determine whether an agent’s action on the environment is good or bad. Reward is a function of the current state, action taken and the next state of the environment. The total reward that an agent receives from the environment is called return. It can be either finite-horizon undercounted reward or infinite-horizon discounted reward.
+
+### Observation
+
+A partial description of the state. A part of the state that is visible to the agent.
+
+### Policy
+
+A policy is the decision-making rule that governs how an agent should act in an environment. An agent uses policy to decide the action to take in a given state, as it is a function that maps state to action.
+
+### Trajectory
+
+A sequence of states and actions in the environment.
+
+### Value Function
+
+This estimates the expected return when the agent starts from a given state and follows a particular policy.
+
+### State-Action Value Function
+
+This is used to calculate the expected return in a given state when the agent takes an action first before following a particular policy.
+
+### Optimal Value Function
+
+This is the value function with respect to optimal policy.
+
+### Optimal State-Action Value Function
+
+This is defined as the maximum return in a given state when an agent takes an action and follows an optimal policy.

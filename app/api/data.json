@@ -1,0 +1,83 @@
+[
+    { 
+        "id": 1, 
+        "skill": "Javascript"
+    },
+    { 
+        "id": 2, 
+        "skill": "Python"
+    },
+    { 
+        "id": 3, 
+        "skill": "C++"
+    },
+    { 
+        "id": 4, 
+        "skill": "Django Rest Framework"
+    },
+    { 
+        "id": 5, 
+        "skill": "GraphQL"
+    },
+    { 
+        "id": 6, 
+        "skill": "VueJS"
+    },
+    { 
+        "id": 7, 
+        "skill": "NuxtJS"
+    },
+    { 
+        "id": 8, 
+        "skill": "ReactJS"
+    },
+    { 
+        "id": 9, 
+        "skill": "NumPy"
+    },
+    { 
+        "id": 10, 
+        "skill": "Pandas"
+    },
+    { 
+        "id": 11, 
+        "skill": "Matplotlib"
+    },
+    { 
+        "id": 12, 
+        "skill": "TensorFlow"
+    },
+    { 
+        "id": 13, 
+        "skill": "PyTorch"
+    },
+    { 
+        "id": 14, 
+        "skill": "Postgres"
+    },
+    { 
+        "id": 15, 
+        "skill": "AWS"
+    },
+    { 
+        "id": 16, 
+        "skill": "Docker"
+    },
+    { 
+        "id": 17, 
+        "skill": "Adobe XD"
+    },
+    { 
+        "id": 18, 
+        "skill": "Figma"
+    },
+    { 
+        "id": 19, 
+        "skill": "Django"
+    },
+    { 
+        "id": 20, 
+        "skill": "Solidworks"
+    }
+  ]
+  
