@@ -32,12 +32,12 @@ export const metadata: Metadata = {
     siteName: 'Eneotu Joe',
     images: [
       {
-        url: 'https://eneotu.com/eneotu-logo.png',
+        url: 'https://res.cloudinary.com/reinforcedai/image/upload/v1673520614/eneotu.com/eneotu_share_image_77c7c37e2a.png',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://eneotu.com/eneotu-logo.png',
+        url: 'https://res.cloudinary.com/reinforcedai/image/upload/v1673520614/eneotu.com/eneotu_share_image_77c7c37e2a.png',
         width: 1800,
         height: 1600,
         alt: 'alt',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    images: ['https://eneotu.com/eneotu-logo.png'],
+    images: ['https://res.cloudinary.com/reinforcedai/image/upload/v1673520614/eneotu.com/eneotu_share_image_77c7c37e2a.png'],
   },
 
   robots: {
