@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
+import { Analytics } from '@vercel/analytics/react';
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -80,6 +81,7 @@ export default function RootLayout({
           <Navbar />
           <main>
             {children}
+            <Analytics />
           </main>
           <Footer />
           </div> 
