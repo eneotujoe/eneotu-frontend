@@ -6,6 +6,7 @@ import Script from 'next/script'
 import { siteConfig } from '@/app/consts'
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { Toaster } from "@/components/ui/sonner"
 
 const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -52,7 +53,7 @@ export default function RootLayout({
         <Header />
         
         {children}
-
+        <Toaster position="top-center" />
         <Script
           defer
           src="https://umamiweb.vercel.app/script.js"

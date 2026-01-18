@@ -6,6 +6,9 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { contactMeSchema, ContactMeFormData, ContactMeResult } from "@/lib/types"
 import { contactMe } from "@/lib/actions"
+import { toast } from "sonner"
+
+
 
 function isValidSubmitResult(result: unknown): result is ContactMeResult {
   return (
@@ -55,6 +58,7 @@ export function ContactSection() {
       }
 
       if (result.success) {
+        toast("Message sent successfully!")
         setIsSubmitted(true)
         reset()
         // Auto-hide success message after 5 seconds
@@ -136,12 +140,12 @@ export function ContactSection() {
 
           {/* Contact Form */}
           <div className="soft-shadow rounded-3xl p-6 md:p-8 bg-background">
-            {isSubmitted && (
+            {/* {isSubmitted && (
               <div className="mb-6 p-4 rounded-xl bg-green-200 border border-green-200 flex items-center gap-3">
                 <CheckCircle2 className="text-green-600 dark:text-green-400" size={20} />
                 <p className="text-green-600 text-sm">Message sent successfully!</p>
               </div>
-            )}
+            )} */}
 
             {submitError && (
               <div className="mb-6 p-4 rounded-xl bg-red-50 border border-red-200">
