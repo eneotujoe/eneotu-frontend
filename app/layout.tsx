@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     default: `${siteConfig.name}`,
   },
   description: `${siteConfig.description}`,
-  keywords: ["AI Research", "Machine Learning", "Deep Learning", "Data Science", "Portfolio"],
+  keywords: ["Eneotu Joe", "Artificial Intelligence", "Machine Learning", "Reinforcement Learning", "Multi-Agent System"],
   openGraph: {
     title: `${siteConfig.name}`,
     description: `${siteConfig.description}`,
