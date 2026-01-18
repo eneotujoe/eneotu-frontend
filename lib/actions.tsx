@@ -54,7 +54,7 @@ export async function contactMe(formData: FormData): Promise<ContactMeResult> {
     // Email template
     const emailHtml = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
-        <h2 style="color: #8B7355; border-bottom: 2px solid #8B7355; padding-bottom: 10px;">
+        <h2 style="color: #8B0055; border-bottom: 2px solid #EEEEEE; padding-bottom: 10px;">
           New Contact Form Submission
         </h2>
         <div style="background-color: #FAF8F5; padding: 20px; border-radius: 8px; margin: 20px 0;">

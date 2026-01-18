@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Eneotu",
     images: [
       {
-        url: "",
+        url: "/share-image.png",
         width: 1200,
         height: 630,
         alt: "Eneotu share image",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteConfig.name}`,
     description: `${siteConfig.description}`,
-    images: [""],
+    images: ["/share-image.png"],
   },
 };
 
