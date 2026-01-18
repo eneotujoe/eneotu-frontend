@@ -55,7 +55,7 @@ export async function contactMe(formData: FormData): Promise<ContactMeResult> {
     const emailHtml = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
         <h2 style="color: #8B0055; border-bottom: 2px solid #EEEEEE; padding-bottom: 10px;">
-          Message eneotu.com
+          Message from eneotu.com contact form
         </h2>
         <div style="background-color: #FAF8F5; padding: 20px; border-radius: 8px; margin: 20px 0;">
           <p style="margin: 0 0 10px 0;"><strong>From:</strong> ${escapeHtml(submitterName)}</p>
