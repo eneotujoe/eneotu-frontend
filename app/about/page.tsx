@@ -36,7 +36,7 @@ export default function About() {
           </div>
           
           <div className="text-2xl md:text-3xl font-bold text-primary mt-10 pb-5">Education</div>
-          <div className="grid grid-cols-2 gap-4 mb-5">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mb-5">
             {[
               { school: "Constanta Maritime University, Romania", certificate: "BSc in Marine Engineering & Navigation" },
               { school: "South Shields Marine School, United Kingdom", certificate: "Professional certifications in engineering" },
