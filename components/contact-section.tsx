@@ -132,7 +132,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Availability</h3>
-                  <p className="text-muted-foreground">Open for AI research opportunities</p>
+                  <p className="text-muted-foreground">I'm open for AI research opportunities</p>
                 </div>
               </div>
             </div>

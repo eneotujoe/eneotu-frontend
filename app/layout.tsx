@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     default: `${siteConfig.name}`,
   },
   description: `${siteConfig.description}`,
+  verification: {
+    google: 'jjcnKUxkGXkUkm71vpH03QerEVYafStsfa636mFeXnQ',
+  },
   keywords: ["Eneotu Joe", "Artificial Intelligence", "Machine Learning", "Reinforcement Learning", "Multi-Agent System"],
   openGraph: {
     title: `${siteConfig.name}`,
