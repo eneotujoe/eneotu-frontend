@@ -9,16 +9,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: 'https://eneotu.com/about',
+      url: 'https://eneotu.com/project',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://eneotu.com/blog',
+      url: 'https://eneotu.com/research',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://eneotu.com/about',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
   ]
 }
