@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Mail, Send, MapPin, Clock, Heart, CheckCircle2, Loader2 } from "lucide-react"
+import { Mail, Send, MapPin, Clock, Heart, Loader2 } from "lucide-react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { contactMeSchema, ContactMeFormData, ContactMeResult } from "@/lib/types"
@@ -78,14 +78,14 @@ export function ContactSection() {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">Get in Touch</h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-          Have a project in mind or just want to chat? Feel free to reach out!
+          Have a research project in mind? Feel free to reach out!
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Contact Info */}
-          <div className="space-y-6">
+          <div className="grid grid-rows-2 space-y-6">
             <div className="soft-shadow rounded-3xl p-6 bg-background">
-              <div className="flex items-start gap-4">
+              <div className="flex h-full items-center gap-4">
                 <div className="soft-shadow-sm rounded-2xl p-3 bg-background">
                   <Mail className="text-primary" size={24} />
                 </div>
@@ -102,7 +102,7 @@ export function ContactSection() {
             </div>
 
             <div className="soft-shadow rounded-3xl p-6 bg-background">
-              <div className="flex items-start gap-4">
+              <div className="flex h-full items-center gap-4">
                 <div className="soft-shadow-sm rounded-2xl p-3 bg-background">
                   <MapPin className="text-primary" size={24} />
                 </div>
@@ -113,29 +113,6 @@ export function ContactSection() {
               </div>
             </div>
 
-            <div className="soft-shadow rounded-3xl p-6 bg-background">
-              <div className="flex items-start gap-4">
-                <div className="soft-shadow-sm rounded-2xl p-3 bg-background">
-                  <Heart className="text-primary" size={24} />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-1">Research Interest</h3>
-                  <p className="text-muted-foreground">Reinforcement Learning, Multi-agent Systems</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="soft-shadow rounded-3xl p-6 bg-background">
-              <div className="flex items-start gap-4">
-                <div className="soft-shadow-sm rounded-2xl p-3 bg-background">
-                  <Clock className="text-primary" size={24} />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-1">Availability</h3>
-                  <p className="text-muted-foreground">I'm open for AI research opportunities</p>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Contact Form */}
