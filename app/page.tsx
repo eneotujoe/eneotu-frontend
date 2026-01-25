@@ -1,5 +1,5 @@
 import { HeroSection } from "@/components/hero-section"
-import { InterestSection } from "@/components/interest-section"
+import { InterestSection } from "@/components/research-interest"
 import { SkillsSection } from "@/components/skills-section"
 import { ContactSection } from "@/components/contact-section"
 
