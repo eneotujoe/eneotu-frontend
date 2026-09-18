@@ -1,4 +1,6 @@
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowDown, Mail } from "lucide-react"
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 import Link from "next/link"
 import Image from 'next/image'
 import { Button } from "./ui/button"
@@ -26,11 +28,7 @@ export function HeroSection() {
 
           <div className="flex flex-col justify-center items-center">
             <h1
-<<<<<<< HEAD
-              className="text-5xl md:text-7xl sm:text-4xl font-black bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-violet-400"
-=======
               className="text-5xl md:text-7xl sm:text-4xl font-black bg-clip-text text-transparent bg-linear-to-r from-green-500 to-violet-400"
->>>>>>> bcaff46 (updated project page)
             >
               Eneotu Joe
             </h1>
@@ -43,8 +41,8 @@ export function HeroSection() {
         {/* Social Links */}
         <div className="flex justify-center gap-4 mb-16">
           {[
-            { icon: Github, href: "https://github.com/eneotujoe", label: "GitHub" },
-            { icon: Linkedin, href: "https://www.linkedin.com/in/eneotujoe", label: "LinkedIn" },
+            { icon: FaGithub, href: "https://github.com/eneotujoe", label: "GitHub" },
+            { icon: FaLinkedin, href: "https://www.linkedin.com/in/eneotujoe", label: "LinkedIn" },
             { icon: Mail, href: "mailto:info@eneotu.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
               <Link

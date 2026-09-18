@@ -1,6 +1,7 @@
 import React from 'react'
 import type { Metadata } from 'next'
-import { ArrowUpRight, Github } from "lucide-react"
+import { ArrowUpRight } from "lucide-react"
+import { FaGithub } from "react-icons/fa";
 import Link from "next/link"
 import Image from "next/image"
 
@@ -11,10 +12,6 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-<<<<<<< HEAD
-    title: "Personal portfolio",
-    description: "A modern portfolio website built with NextJS and TailwindCSS.",
-=======
     title: "Enterprise-Grade LLM Chat Platform",
     description: "LLM chat application with low latency, high throughput, conversational workflows, persistent chat storage, and database-backed application infrastructure",
     url: "https://reinforcedai.com",
@@ -52,7 +49,6 @@ const projects = [
   {
     title: "Portfolio",
     description: "A modern portfolio built with NextJS and TailwindCSS.",
->>>>>>> bcaff46 (updated project page)
     url: "https://eneotu.com",
     tags: ["NextJS", "Shadcn ui", "TypeScript", "TailwindCSS"],
     github: "https://github.com/eneotujoe/eneotu-frontend",
@@ -97,11 +93,6 @@ export default function Project() {
                 index === 0 ? "lg:col-span-2" : "lg:col-span-2"
               }`}
             >
-<<<<<<< HEAD
-              <div>
-                <iframe src={project.url || "/placeholder.svg"} width="100%" height="300"></iframe>
-=======
-
               <div className="bg-gray-200 w-full h-75 flex items-center justify-center">
                 {project.url ? (
                   <iframe
@@ -117,7 +108,6 @@ export default function Project() {
                     className="max-w-full max-h-full object-contain"
                   />
                 )}
->>>>>>> bcaff46 (updated project page)
               </div>
 
               <div className="p-6 md:p-8">
@@ -139,7 +129,7 @@ export default function Project() {
                         href={project.github}
                         className="flex items-center gap-2 px-4 py-2 rounded-xl soft-shadow-sm bg-background text-muted-foreground hover:text-foreground soft-hover text-sm font-medium"
                       >
-                        <Github size={16} />
+                        <FaGithub size={16} />
                         <span>Code</span>
                       </Link>
                     </div>
