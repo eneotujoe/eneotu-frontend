@@ -108,11 +108,9 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Location</h3>
-<<<<<<< HEAD
+
                   <p className="text-muted-foreground">South Shields, England</p>
-=======
                   <p className="text-muted-foreground">Newcastle, England</p>
->>>>>>> bcaff46 (updated project page)
                 </div>
               </div>
             </div>
@@ -121,12 +119,6 @@ export function ContactSection() {
 
           {/* Contact Form */}
           <div className="soft-shadow rounded-3xl p-6 md:p-8 bg-background">
-            {/* {isSubmitted && (
-              <div className="mb-6 p-4 rounded-xl bg-green-200 border border-green-200 flex items-center gap-3">
-                <CheckCircle2 className="text-green-600 dark:text-green-400" size={20} />
-                <p className="text-green-600 text-sm">Message sent successfully!</p>
-              </div>
-            )} */}
 
             {submitError && (
               <div className="mb-6 p-4 rounded-xl bg-red-50 border border-red-200">
