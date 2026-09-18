@@ -26,7 +26,11 @@ export function HeroSection() {
 
           <div className="flex flex-col justify-center items-center">
             <h1
+<<<<<<< HEAD
               className="text-5xl md:text-7xl sm:text-4xl font-black bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-violet-400"
+=======
+              className="text-5xl md:text-7xl sm:text-4xl font-black bg-clip-text text-transparent bg-linear-to-r from-green-500 to-violet-400"
+>>>>>>> bcaff46 (updated project page)
             >
               Eneotu Joe
             </h1>

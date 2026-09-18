@@ -11,8 +11,48 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+<<<<<<< HEAD
     title: "Personal portfolio",
     description: "A modern portfolio website built with NextJS and TailwindCSS.",
+=======
+    title: "Enterprise-Grade LLM Chat Platform",
+    description: "LLM chat application with low latency, high throughput, conversational workflows, persistent chat storage, and database-backed application infrastructure",
+    url: "https://reinforcedai.com",
+    tags: ["NextJS", "AI SDK", "Shadcn ui", "TypeScript", "TailwindCSS", "PostgreSQL", "Docker", "LLM Gateway"],
+    github: "https://github.com/eneotujoe/",
+  },
+  {
+    title: "Vision Language Model Fine-Tuning of 31 billion parameters Gemma4 for Fractographic Analysis of Hydrogen-Charged High-Entropy Alloys",
+    description: "Utilizing Parameter Efficient Fine-Tuning (PEFT) with Low Rank Adaption (LoRA)",
+    url: "https://huggingface.co/eneotu/gemma4_31b_high_entropy_alloy_lora",
+    tags: ["Gemma-4-31B-IT", "PyTorch", "Pandas", "Transformer", "LoRA", "PEFT"],
+    github: "https://github.com/eneotujoe/high-entropy-alloy-research",
+  },
+  {
+    title: "Fine-Tuning of 11 billion parameters Llama3 Vision Language Model for Fractographic Analysis of Hydrogen-Charged High-Entropy Alloys",
+    description: "Utilizing Parameter Efficient Fine-Tuning (PEFT) with Low Rank Adaption (LoRA)",
+    url: "",
+    tags: ["Llama-3.2-11B-Vision-Instruct", "PyTorch", "Pandas", "Transformer", "LoRA", "PEFT"],
+    github: "https://github.com/eneotujoe/high-entropy-alloy-research",
+  },
+  {
+    title: "LLM Inference Infrastructure",
+    description: "Deployment and integration of vLLM for low latency and high-throughput LLM inference",
+    url: "",
+    tags: ["LLM", "vLLM", "aiohttp", "fastAPI"],
+    github: "https://github.com/eneotujoe/vllm-inference",
+  },
+  {
+    title: "LLM API Gateway",
+    description: "AI gateway for routing requests across multiple model backends",
+    url: "",
+    tags: ["LLM", "FastAPI", "AI Gateway", "httpx"],
+    github: "https://github.com/eneotujoe/llm-gateway",
+  },
+  {
+    title: "Portfolio",
+    description: "A modern portfolio built with NextJS and TailwindCSS.",
+>>>>>>> bcaff46 (updated project page)
     url: "https://eneotu.com",
     tags: ["NextJS", "Shadcn ui", "TypeScript", "TailwindCSS"],
     github: "https://github.com/eneotujoe/eneotu-frontend",
@@ -57,8 +97,27 @@ export default function Project() {
                 index === 0 ? "lg:col-span-2" : "lg:col-span-2"
               }`}
             >
+<<<<<<< HEAD
               <div>
                 <iframe src={project.url || "/placeholder.svg"} width="100%" height="300"></iframe>
+=======
+
+              <div className="bg-gray-200 w-full h-75 flex items-center justify-center">
+                {project.url ? (
+                  <iframe
+                    src={project.url}
+                    width="100%"
+                    height="300"
+                    className="border-0"
+                  />
+                ) : (
+                  <img
+                    src="/placeholder.png"
+                    alt="Project placeholder"
+                    className="max-w-full max-h-full object-contain"
+                  />
+                )}
+>>>>>>> bcaff46 (updated project page)
               </div>
 
               <div className="p-6 md:p-8">

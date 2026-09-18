@@ -25,11 +25,19 @@ export default function About() {
 
             <div className="space-y-4">
               <p className="text-muted-foreground leading-relaxed">
+<<<<<<< HEAD
                 Just like self-driving cars, I am motivated and driven to research on self-driving ships.
                 My career aspirations are rooted in the intersection of marine engineering and cutting-edge technology.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
+=======
+                My career aspirations are rooted in the interdisciplinary applications of artificial intelligence.
+              </p>
+
+              <p className="text-muted-foreground leading-relaxed line-through">
+                Just like self-driving cars, I am motivated and driven to research on self-driving ships.
+>>>>>>> bcaff46 (updated project page)
                 I'm focused on building AI-powered autonomous navigation systems for ships.
               </p>
             </div>

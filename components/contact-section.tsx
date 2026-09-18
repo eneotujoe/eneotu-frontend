@@ -108,7 +108,11 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Location</h3>
+<<<<<<< HEAD
                   <p className="text-muted-foreground">South Shields, England</p>
+=======
+                  <p className="text-muted-foreground">Newcastle, England</p>
+>>>>>>> bcaff46 (updated project page)
                 </div>
               </div>
             </div>

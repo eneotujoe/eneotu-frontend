@@ -21,6 +21,15 @@ const articles = [
     url: "https://data.mendeley.com/datasets/htsg26w5m4/1",
     date: "27 May 2025",
   },
+<<<<<<< HEAD
+=======
+  {
+    title: "SEM Image Characterization Dataset of Hydrogen-Charged High-Entropy Alloys for Artificial Intelligence and Machine Learning Applications",
+    abstract: "Hydrogen embrittlement presents a critical challenge in the deployment of metals in hydrogen-exposed environments, where the interaction between hydrogen and the metal gives rise to complex failure mechanisms. High-entropy alloys (HEAs) have been identified as an alloy arrangement with the potential to reduce the impact of embrittlement. However, studies are yet to unravel optimisation mechanisms to achieve a fully resistant alloy architecture. Traditional assessment of hydrogen-assisted fracture relies on manual expert interpretation, which is time-consuming, subjective and potentially difficult to standardize. This dataset presents a multimodal Vision-Language Model based for fractographic analysis of HEAs and interpretable assessment of hydrogen embrittlement. The dataset contains 237 High Entropy Alloy (HEA) experimental samples, with 1,343 Large Language Model instructions. For Artificial intelligence and machine learning training and validation, the dataset was divided into training (80%), validation (15%), and test (5%) folders. In each folder, the authors included metadata (in .jsonl) describing the Instruction, Condition, Input, Output and Response for every SEM print Image ID and Image Type (Hydrogen-Charged under Gaseous and Electrochemical Conditions). The visual HEA prints and corresponding metadata were read as the characterization of each HEA scan in natural language for utilization with any language model.",
+    url: "https://data.mendeley.com/datasets/f6m5kc6pb4/1",
+    date: "14 September 2026",
+  },
+>>>>>>> bcaff46 (updated project page)
 ]
 
 export default function Research() {

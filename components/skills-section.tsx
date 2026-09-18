@@ -4,7 +4,11 @@ const skills = [
   {
     icon: Code,
     title: "Programming",
+<<<<<<< HEAD
     technologies: ["JavaScript", "Python", "C/C++"],
+=======
+    technologies: ["JavaScript", "Python", "C/C++", "Rust"],
+>>>>>>> bcaff46 (updated project page)
   },
   {
     icon: Code2,
@@ -24,7 +28,11 @@ const skills = [
   {
     icon: Layout,
     title: "Framework",
+<<<<<<< HEAD
     technologies: ["TensorFlow", "PyTorch", "Scikit-learn", "Docker"],
+=======
+    technologies: ["TensorFlow", "PyTorch", "Scikit-learn", "Docker", "MATLAB"],
+>>>>>>> bcaff46 (updated project page)
   },
   {
     icon: Palette,
